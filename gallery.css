@@ -1,0 +1,169 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, 'sans-serif';
+}
+
+body {
+   background-color: rgb(255, 255, 255);
+}
+
+.first {
+   width: 100%;
+   min-height: 3in;
+   background-color: rgb(255, 255, 255);
+}
+
+.first div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: 2in;
+}
+
+.nav {
+   width: 100%;
+   min-height: .5in;
+   background-color: rgb(255, 255, 255);
+}
+
+.nav ul {
+   display: flex;
+   list-style-type: none;
+}
+
+.nav li {
+   padding: 20px;
+}
+.nav a {
+   text-decoration: none;
+}
+
+.nav div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.third {
+   width: 100%;
+   min-height: 2in;
+   background-color: rgb(255, 255, 255);
+}
+
+.third div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: .5in;
+}
+
+.third p {
+   color: white;
+   font-size: 75px;
+   background-color: rgb(39, 39, 39);
+}
+
+.grid {
+   width: 100%;
+   min-height: 5in;
+   background-color: rgb(255, 255, 255);
+}
+
+.firstrow {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.firstrow ul {
+   list-style-type: none;
+   display: flex;
+}
+
+.firstrow ul li {
+   padding: 10px;
+}
+
+.firstrow img {
+   border: 3px solid rgb(35, 35, 35);
+}
+
+.secondrow {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.secondrow ul li {
+   padding: 10px;
+}
+
+.secondrow img {
+   border: 3px solid rgb(35, 35, 35);
+}
+
+.secondrow ul {
+   list-style-type: none;
+   display: flex;
+}
+
+.thirdrow {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.thirdrow ul li {
+   padding: 10px;
+}
+
+.thirdrow img {
+   border: 3px solid rgb(35, 35, 35);
+}
+
+.thirdrow ul {
+   list-style-type: none;
+   display:flex
+}
+
+.footer {
+   width: 100%;
+   min-height: 2in;
+   background-color: rgb(25, 25, 25);
+}
+
+.copyright {
+   width: fit-content;
+   position: relative;
+   display: flex;
+   left: 2in;
+   top: 1in;
+}
+
+.copyright p {
+   color: white;
+}
+
+.media-links {
+   width: fit-content;
+   display: flex;
+   position: relative;
+   float: right;
+   padding-right: 1in;
+}
+
+.media-links ul {
+   list-style-type: none;
+   display: flex;
+}
+
+.media-links ul li {
+   padding: 5px;
+}
+
+.media-links img {
+   width: 60px;
+}
+
+
